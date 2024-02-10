@@ -1,0 +1,178 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+body{
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url(https://images.unsplash.com/photo-1518066000714-58c45f1a2c0a?q=80&w=1000&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8Y29zbW9zfGVufDB8fDB8fHww);
+}
+.solar{
+    height: 100%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.pluto-container{
+    position: absolute;
+    height: 850px;
+    width: 850px;
+    border-radius: 100% ;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid white;
+}
+.pluto-container >img{
+    height: 50px;
+    width: 50px;
+    animation: pluto-rotation 5390ms linear infinite;
+}
+.neptun-container{
+    position: absolute;
+    height: 750px;
+    width: 750px;
+    border-radius: 100% ;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid white;
+}
+.neptun-container >img{
+    height: 75px;
+    width: 75px;
+    animation: neptun-rotation 3500ms linear infinite;
+}
+.uranus-container{
+    position: absolute;
+    height: 600px;
+    width: 600px;
+    border-radius: 100% ;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid white;
+}
+.uranus-container >img{
+    height: 75px;
+    width: 75px;
+    border-radius: 35px;
+    animation: uranus-rotation 5300ms linear infinite;
+}
+.jupiter-container{
+    position: absolute;
+    height: 500px;
+    width: 500px;
+    border-radius: 100% ;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid white;
+}
+.jupiter-container >img{
+    height: 75px;
+    width: 75px;
+    animation: jupiter-rotation 2000ms linear infinite;
+}
+.mars-container{
+    position: absolute;
+    height: 400px;
+    width: 400px;
+    border-radius: 100% ;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid white;
+}
+.mars-container >img{
+    height: 35px;
+    width: 35px;
+    animation: mars-rotation 2000ms linear infinite;
+}
+.earth-container{
+    position: absolute;
+    height: 350px;
+    width: 350px;
+    border-radius: 100% ;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid white;
+}
+.earth-container >img{
+    height: 35px;
+    width: 35px;
+    animation: earth-rotation 5000ms linear infinite;
+}
+.sun-container{
+    position: absolute;
+    height: 200px;
+    width: 200px;
+    border-radius: 100% ;
+    display: flex;
+    justify-content: center;
+}
+.earth-container >img{
+    height: 310px;
+    width: 310px;
+    border-radius: 100%;
+    background-color: transparent;
+    /* pointer-events: none; */
+    user-select: none;
+}
+@keyframes pluto-rotation {
+    0%{
+        transform: rotate(0deg) translate(450px) rotate(0deg);
+    }
+    100%{
+        transform:rotate(360deg) translate(450px) rotate(0deg);
+    }
+}
+@keyframes neptun-rotation {
+    0%{
+        transform: rotate(0deg) translate(370px) rotate(0deg);
+    }
+    100%{
+        transform:rotate(360deg) translate(370px) rotate(0deg);
+    }
+}
+@keyframes uranus-rotation {
+    0%{
+        transform: rotate(0deg) translate(300px) rotate(0deg);
+    }
+    100%{
+        transform:rotate(360deg) translate(300px) rotate(0deg);
+    }
+}
+@keyframes jupiter-rotation {
+    0%{
+        transform: rotate(0deg) translate(300px) rotate(0deg);
+    }
+    100%{
+        transform:rotate(360deg) translate(300px) rotate(0deg);
+    }
+}
+@keyframes mars-rotation {
+    0%{
+        transform: rotate(0deg) translate(450px) rotate(0deg);
+    }
+    100%{
+        transform:rotate(360deg) translate(450px) rotate(0deg);
+    }
+}
+@keyframes earth-rotation {
+    0%{
+        transform: rotate(0deg) translate(450px) rotate(0deg);
+    }
+    100%{
+        transform:rotate(360deg) translate(450px) rotate(0deg);
+    }
+}
+
+
+
+
