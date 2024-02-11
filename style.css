@@ -16,6 +16,10 @@ body{
     display: flex;
     justify-content: center;
     align-items: center;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
 }
 .pluto-container{
     position: absolute;
@@ -103,9 +107,9 @@ body{
     align-items: center;
     border: 1px solid white;
 }
-.earth-container >img{
-    height: 35px;
-    width: 35px;
+.earth-container img{
+    width: 50px !important;
+    height: 50px !important;
     animation: earth-rotation 5000ms linear infinite;
 }
 .sun-container{
